@@ -83,19 +83,17 @@ article img {
     object-fit: cover;
 }
 
+article video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 /* кнопка "читать далее" */
 article .text {
     max-height:100px;
     overflow: hidden;
     position: relative;
 }
-
-/* задаем скорость раскрытия заглушки */
-/*.text .bottom {
-    position: absolute;
-    opacity: 1;
-    transition: .3s;
-}*/
 
 /* скрываем checkbox */
 .read-more-checker {
