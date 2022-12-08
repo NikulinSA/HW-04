@@ -83,8 +83,40 @@ article img {
     object-fit: cover;
 }
 
+/* кнопка "читать далее" */
 article .text {
     max-height:100px;
     overflow: hidden;
     position: relative;
+}
+
+/* задаем скорость раскрытия заглушки */
+/*.text .bottom {
+    position: absolute;
+    opacity: 1;
+    transition: .3s;
+}*/
+
+/* скрываем checkbox */
+.read-more-checker {
+opacity: 0;
+position: absolute;
+}
+
+/* делаем кнопку */
+.read-more-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    color: rgb(64, 58, 152);
+    border: 3px solid rgb(53, 65, 130);
+    border-radius: 4px;
+}
+/* надпись в кнопке */
+.read-more-checker ~ .read-more-button:after {content: 'Читать далее >>';}
+/* изменение текста в кнопке при нажатии */
+.read-more-checker:checked ~ .read-more-button:after {content: 'Скрыть <<';}
+/* раскрываем полную инфлормацию */
+.read-more-checker:checked ~ .text {
+    max-height: none;
 }
