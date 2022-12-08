@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 200px;
     background: url(/images/fon.png) top no-repeat;
     background-size: cover;
 }
@@ -11,7 +11,7 @@ header {
     border: 6px solid;
     padding: 10px;
     border-color: aliceblue;
-    font-size: 70px;
+    font-size: 50px;
 	color: rgb(53, 65, 130);
     font-family: 'Times New Roman', Times, serif;
 }
@@ -44,4 +44,47 @@ footer .links > a {
 .copyright {
     color: rgb(108, 117, 125);
     font-family: 'Times New Roman', Times, serif;
+}
+
+.nesw {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(53, 65, 130);;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: orange;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+article .text {
+    max-height:100px;
+    overflow: hidden;
+    position: relative;
 }
