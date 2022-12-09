@@ -3,7 +3,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 200px;
-    background: url(/images/fon.png) top no-repeat;
+    background: url(images/fon.png) top no-repeat;
     background-size: cover;
 }
 /* стиль ссылки в заголовке*/
@@ -152,7 +152,7 @@ position: absolute;
 }
 /* блок рекламы */
 .banner {
-    background-image: url(/images/adv.jpg);
+    background-image: url(images/adv.jpg);
     height: 500px;
     background-size: cover;
     width: 768px;
