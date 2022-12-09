@@ -3,7 +3,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 200px;
-    background: url(/images/fon.png) top no-repeat;
+    background: url(/images/fon.jpg) top no-repeat;
     background-size: cover;
 }
 /* стиль ссылки в заголовке*/
